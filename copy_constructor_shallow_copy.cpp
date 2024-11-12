@@ -15,13 +15,14 @@ class character
         cout<<"charcter = "<<ch<<endl;
     }
 };
+
 int main()
 {
     character c('H');
     c.display();
     character c1(c);
     c1.display();
-    
+
     return 0;
 
 }
