@@ -29,8 +29,10 @@ int main()
 {
     character c1('H','E');
     c1.display();
-    character c2(c1);
+    character c2(c1);  //copy method1
     c2.display();
+    character c3 = c2;  //copy method2
+    c3.display();
 
     return 0;
 
