@@ -43,7 +43,7 @@ void String::change(const char *str)
 int main()
 {
     String str1("Hemesh");
-    String str2 = str1;
+    String str2 = str1; //shallow copy
 
     str1.print();
     str2.print();
@@ -53,3 +53,5 @@ int main()
     str1.print();
     str2.print();
 }
+
+//Here we are making use of strings and strcpy and  making using shallow copy to copy the object
