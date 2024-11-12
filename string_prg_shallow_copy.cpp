@@ -55,3 +55,4 @@ int main()
 }
 
 //Here we are making use of strings and strcpy and  making using shallow copy to copy the object
+//If we are trying to change second object str2 string it is getting reflecting for first object data because in shallow copy all the objects will be stored in the same memory. 
