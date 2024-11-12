@@ -18,7 +18,6 @@ class character
         lc = obj.lc;
         cout<<"characters copied"<<endl;
     }
-
     void display()
     {
         cout<<"First character  = "<<fc<<endl;
