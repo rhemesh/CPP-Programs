@@ -51,5 +51,5 @@ int main()
 }
 
 //This acts as pass by reference in friend class because we are passing the obj refrence to the class B function
-
+//Value a changed in class B will reflect in class B
 //If we use friend class we can modify the content of the class A variables in class B.
