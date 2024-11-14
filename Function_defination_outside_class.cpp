@@ -6,6 +6,10 @@ class Intro
 {
     string name;
     public:
+    Intro(int n)
+    {
+        cout<<"n = "<<n<<endl;
+    }
     void set(string str)
     {
         name = str;
@@ -20,7 +24,7 @@ string Intro::display()
 
 int main()
 {
-    Intro obj;
+    Intro obj(1);
     obj.set("Hemesh");
     cout<<"Name = "<<obj.display();
 
