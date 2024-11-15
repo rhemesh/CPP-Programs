@@ -33,6 +33,4 @@ int main()
         cout<<*lst<<endl;
         lst++;
     }
-
-
 }
