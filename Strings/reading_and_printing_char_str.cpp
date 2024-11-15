@@ -2,6 +2,7 @@
 
 using namespace std;
 
+
 int main()
 {
     char str[10];
