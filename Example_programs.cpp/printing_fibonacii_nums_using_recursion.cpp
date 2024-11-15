@@ -20,3 +20,8 @@ int main()
         cout<<fibonacii(i)<<" ";
     }
 }
+
+//Here we are printing the fibonacii series
+
+//If we want to print fibonacii till particular number then we can use the condition  for(int i=1;fibonacii(i)<=n;i++)
+//This prints only within that number for ex:10 then it prints below 10 fibonacii 112358
